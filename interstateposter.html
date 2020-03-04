@@ -7,32 +7,28 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  </head>
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Archivo:400,400i,500,700&display=swap" rel="stylesheet">  </head>
 
 <body>
 
-  <div class=headerwork >
-    <a href=index.html>
-        <p id=jonathan class='bold'>← Work</p>
+  <div class='headerwork'>
+    <a href='index.html'>
+      <div id='jonathan'>← Work</div>
     </a>
-  <a href='about.html'>
-    <p id=about class='black'>About + Contact</p>
-  </a>
+    <a href='about.html'>
+      <div id='about' class='black'>About & Contact</div>
+    </a>
   </div>
 
 
-<button onclick="myFunction()" class='info'>
-<p id='info'>Info</p>
-</button>
+  <div class='footer'>
+  <button onclick="myFunction()" class=info>
+  + Info
+  </button>
+  </div>
 
 
-
-<script>
-$( 'button' ).click(function() {
-   $( this ).addClass( "whiteback" );
-});
-</script>
 
 
 
@@ -89,27 +85,7 @@ $( 'button' ).click(function() {
   });
   </script>
 
-  <script>
-  $( "button" ).click(function() {
-    $( "#superrgay" ).slideToggle( "slow", function(){
-      $( "#superrgay" ).removeClass( "hidden" )
-    });
-  });
-  </script>
 
-
-  <script>
-  function myFunction() {
-  var x = document.getElementById("info");
-  if (x.innerHTML === "Info") {
-    x.innerHTML = "✕";
-  } else {
-    x.innerHTML = "Info";
-  }
-  }
-  </script>
-
-</div>
 
 
 
